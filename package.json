@@ -1,0 +1,31 @@
+{
+  "name": "ota",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@hono/node-server": "^2.1.7",
+    "@hot-updater/aws": "^1.1.12",
+    "@hot-updater/server": "^1.1.12",
+    "better-sqlite3": "^13.1.1",
+    "dotenv": "^18.0.10",
+    "hono": "^4.13.18",
+    "kysely": "^0.29.8"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.6.6",
+    "hot-updater": "^1.1.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
